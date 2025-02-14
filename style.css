@@ -62,3 +62,17 @@ body{
     display: flex;
     align-items: stretch;
 }
+
+.search-control,
+.search-btn{
+    width: 100%;
+}
+
+.search-control{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid var(--tenne-tawny);
+    color: var(--tenne-tawny);
+}
