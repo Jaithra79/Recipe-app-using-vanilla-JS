@@ -75,4 +75,20 @@ body{
     outline: 0;
     border: 1px solid var(--tenne-tawny);
     color: var(--tenne-tawny);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.search-control::placeholder{
+    color: var(--tenne-tawny);
+}
+
+.search-btn{
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem;
+    background: var(--tenne-tawny);
+    color: #fff;
+    border: none;
+    bo
 }
